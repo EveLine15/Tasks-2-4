@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding: 30px 0 0 20px;
+  transition: 0.2s;
+}
+main h1 {
+  margin: 20px 0;
+}
+main button {
+  background-color: black;
+}
+
+.sidebar {
+  color: rgb(148, 148, 148);
+  background-color: black;
+  width: 0;
+  height: 100%;
+  position: fixed;
+  overflow-x: hidden;
+  transition: 0.2s;
+}
+.sidebar .content-holder {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 20px;
+}
+.sidebar button {
+  position: absolute;
+  right: 5px;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  border: 0;
+}
+.sidebar a {
+  font-size: 25px;
+  padding: 3px;
+}/*# sourceMappingURL=style.css.map */

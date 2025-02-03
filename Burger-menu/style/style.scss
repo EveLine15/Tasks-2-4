@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    padding: 30px 0 0 20px;
+    transition: 0.2s;
+
+    h1{
+        margin: 20px 0;
+    }
+    button{
+        background-color: black;
+    }
+}
+
+.sidebar{
+    color: rgb(148, 148, 148);
+    background-color: black;
+    width: 0;
+    height: 100%;
+    position: fixed;
+    overflow-x: hidden;
+    transition: 0.2s;
+
+    .content-holder{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding: 20px;
+    }
+
+    button{
+        position: absolute;
+        right: 5px;
+        top: 0;
+        width: 30px;
+        height: 30px;
+        border: 0;
+    }
+
+    a{
+        font-size: 25px;
+        padding: 3px;
+    }
+}
